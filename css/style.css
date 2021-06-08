@@ -1,0 +1,22 @@
+.img {
+	position: relative;
+	}
+
+.bg {
+	width: 100%;
+}
+.cat {
+	position: absolute;
+	top: 65%;
+	left: 25%;
+}
+.witch {
+	position: absolute;
+	top: 10%;
+	left: 0%;
+}
+.bat {
+	position: absolute;
+	top: 20%;
+	left: 60%;
+}
