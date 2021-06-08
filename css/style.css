@@ -4,19 +4,32 @@
 
 .bg {
 	width: 100%;
+	height: auto;
 }
 .cat {
 	position: absolute;
-	top: 65%;
+	top: 70%;
 	left: 25%;
+}
+.img-cat {
+	width: 40%;
+	height: 50%;
 }
 .witch {
 	position: absolute;
 	top: 10%;
 	left: 0%;
 }
+.img-witch {
+	width: 25%;
+	height: 20%;
+}
 .bat {
 	position: absolute;
-	top: 20%;
+	top: 60%;
 	left: 60%;
+}
+.img-bat {
+	width: 40%;
+	height: 20%;
 }
