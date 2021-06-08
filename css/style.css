@@ -7,7 +7,7 @@
 }
 .cat {
 	position: absolute;
-	top: 70%;
+	top: 80%;
 	left: 25%;
 	animation: cat-animation 20s infinite;
 }
