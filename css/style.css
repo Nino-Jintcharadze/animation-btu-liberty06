@@ -13,7 +13,6 @@
 }
 .img-cat {
 	width: 40%;
-	height: 50%;   
 }
 .witch {
 	position: absolute;
@@ -23,7 +22,6 @@
 }
 .img-witch {
 	width: 25%;
-	height: 20%;
 }
 .bat {
 	position: absolute;
@@ -33,7 +31,6 @@
 }
 .img-bat {
 	width: 40%;
-	height: 20%;
 }
 
 /*keyframe animation*/
