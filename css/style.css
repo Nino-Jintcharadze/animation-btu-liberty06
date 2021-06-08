@@ -1,24 +1,25 @@
-.img {
+.main {
 	position: relative;
 	}
 
 .bg {
 	width: 100%;
-	height: auto;
 }
 .cat {
 	position: absolute;
 	top: 70%;
 	left: 25%;
+	animation: cat-animation 20s infinite;
 }
 .img-cat {
 	width: 40%;
-	height: 50%;
+	height: 50%;   
 }
 .witch {
 	position: absolute;
 	top: 10%;
 	left: 0%;
+	animation: witch-animation 10s infinite;
 }
 .img-witch {
 	width: 25%;
@@ -26,10 +27,37 @@
 }
 .bat {
 	position: absolute;
-	top: 60%;
+	top: 40%;
 	left: 60%;
+	animation: bat-animation 5s infinite;
 }
 .img-bat {
 	width: 40%;
 	height: 20%;
+}
+
+/*keyframe animation*/
+@keyframes cat-animation {
+	0%{transform: scale(1);}
+	25%{transform: scale(1.1);}
+	50%{transform: scale(1);}
+	75%{transform: scale(1.1);}
+	100%{transform: scale(1);}
+}
+
+@keyframes witch-animation {
+	0%{left:0%;}
+	20%{left:20%;}
+	40%{left:40%;}
+	60%{left:60%;}
+	80%{left:80%;}
+	100%{left:100%;}
+}
+
+@keyframes bat-animation {
+	0%{top:40%;}
+	25%{top:45%;}
+	50%{top:40%;}
+	75%{top:45%;}
+	100%{top:40%;}
 }
